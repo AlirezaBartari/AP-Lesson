@@ -14,7 +14,7 @@ int main(){
     
     float sin = sin_calc( degree ) ;
     cout << "sin " << degree << " = " << sin << endl ;
-    //cout << power(1.57,11) ;
+    
     return 0 ;
 }
 
