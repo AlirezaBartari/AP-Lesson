@@ -19,6 +19,13 @@ int main(){
 }
 
 float sin_calc( float degree ){
+
+    int flag = 1 ;
+    while(degree >= 180)
+    {
+        degree -= 180 ;
+        flag *= -1 ;
+    }
     
     float rad = degree * 0.01745329 ; // or *3.14/180 
     int sign = 1 ;
@@ -29,6 +36,7 @@ float sin_calc( float degree ){
         sign *= -1 ;
         calc += (float)(sign*( power(rad , i) / fact( i ) )) ;
     }
+    calc *= flag ;
     return calc ;
 }
 
