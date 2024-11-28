@@ -28,15 +28,11 @@ int main(){
         << "'2' for showing " << endl
         << "'3' for deletion of linked list " << endl
         << "'4' for searching " << endl 
-        << "'0' for exit : " ;
+        << "'5' for exit : " ;
 
         cin >> option ;
 
         switch(option){
-
-            case 0 :
-                cout << endl << "program finished ! " << "\n\n" ;
-                return 0 ;
 
             case 1 :
 
@@ -62,6 +58,7 @@ int main(){
                 break ;
             
             case 4 : 
+                
                 cout << "Enter name and family for searching : " ;
                 cin >> name >> family ;
                 
@@ -69,6 +66,7 @@ int main(){
                 break ;
 
             case 5 :
+                
                 cout << endl << "program finished ! " << "\n\n" ;
                 return 0 ;
  
