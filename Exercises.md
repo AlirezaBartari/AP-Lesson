@@ -8,7 +8,7 @@
 ## فهرست 
 
 1. [ آرایه ها ](#آرایه_ها)
-2. [اشاره گر](https://github.com/AlirezaBartari/AP-Lesson/blob/main/Exercises.md#%D8%A7%D8%B4%D8%A7%D8%B1%D9%87-%DA%AF%D8%B1)
+2. [اشاره گر](#اشاره-گر)
 
 ---
 
