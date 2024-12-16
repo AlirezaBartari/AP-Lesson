@@ -12,6 +12,7 @@ class List{
         // سازنده پیش‌فرض
         List()
         {
+            len = 10;
             arr = new int[10];
             n=0;
         }
