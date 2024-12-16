@@ -66,7 +66,7 @@ int main(){
     int number, len;
     cout << "Enter lenght of array : ";
     cin >> len;
-    List list(len) ;
+    List list(len) ; //تعریف شی از کلاس لیست
 
     for(int i=0 ; i<len ; i++ )
     {
@@ -76,7 +76,8 @@ int main(){
     }
     list.show();
 
-    cout << "Enter number for searching : ";
+    cout << "Enter number for searching : "; 
+    //یک عدد برای جستجو در آرایه میگیریم 
     cin >> number;
     cout << "Position: " << list.search(number);
 }
