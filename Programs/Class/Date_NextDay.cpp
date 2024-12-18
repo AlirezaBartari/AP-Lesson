@@ -68,7 +68,7 @@ int main()
 {
     Date date;
     
-    if(date.NextDay()) 
+    if(date.NextDay() == true) 
         date.Show();
     
     else
