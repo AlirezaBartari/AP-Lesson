@@ -37,10 +37,10 @@ bool Date::NextDay(){
         if(month <= 6 && month > 0)
             daysInMonth = 31;
 
-        if(month <= 11 && month > 6)
+        else if(month <= 11 && month > 6)
             daysInMonth = 30;
 
-        if(month == 12)
+        else if(month == 12)
             daysInMonth = 29;
 
         else
