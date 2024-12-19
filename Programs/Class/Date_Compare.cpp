@@ -22,8 +22,17 @@ public:
         month = m;
         day = d;
     }
+    void Show();
     int compare(Date);
 };
+
+void Date::Show()
+{   
+        cout << setfill('0') //برای پر کردن فضای خالی با صفر
+        << year  << "-" 
+        << setw(2) << month << "-" 
+        << setw(2) << day << endl;
+}
 
 int Date::compare(Date d)
 {
@@ -73,6 +82,8 @@ int Date::compare(Date d)
 int main()
 {
     Date d1(1403,10,20), d2;
+
+    cout << "Current Date: " << d1.Show();
     
     int result = d1.compare(d2);
     cout << "result: " << result << endl;
