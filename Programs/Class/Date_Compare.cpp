@@ -16,14 +16,15 @@ public:
         cout << "Enter year , month and day : " ;
         cin >> year >> month >> day ;
     }
+    // سازنده برای مقدار دهی اولیه
     Date(int y, int m, int d)
     {
         year = y;
         month = m;
         day = d;
     }
-    void Show();
-    int compare(Date);
+    void Show();         // متد نمایش تاریخ
+    int compare(Date);   // متد مقایسه آرگومان دریافتی با شی جاری
 };
 
 void Date::Show()
