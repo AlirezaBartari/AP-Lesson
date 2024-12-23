@@ -280,4 +280,10 @@ $$
 
   [حل تمرین](Programs/Class/Date(==).cpp) 
 
+
+#### تمرین ۴۰:
+سربارگذاری عملگر های << و >> برای cin و cout در کلاس Date.
+
+  [حل تمرین](Programs/Class/Date_cin_cout.cpp) 
+
   
