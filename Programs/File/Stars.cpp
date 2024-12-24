@@ -15,7 +15,7 @@ int main()
     //چک کردن اینکه فایل باز شده یا خیر
     if (!mf.is_open())
     {
-        cout << "Error opening file";
+        cout << "Error while opening file" << endl;
         return 1;
     }
     
