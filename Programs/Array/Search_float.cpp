@@ -7,7 +7,7 @@ int main()
     float arr[10], num;
 
     cout << "Enter 10 numbers: ";
-    // حلقه اول برای گرفتن ده عدد صحیح
+    // حلقه اول برای گرفتن ده عدد اعشاری
     for(int i=0 ; i<10 ; i++)
         cin >> arr[i];
 
