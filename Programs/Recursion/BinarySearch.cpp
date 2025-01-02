@@ -42,7 +42,7 @@ int main()
     cout << "Enter number for searching: ";
     cin >> x;
 
-    if (Search(arr, 0, n - 1, x))
+    if (Search(arr, 0, n - 1, x) == true)
         cout << " Found " << endl;
     else
         cout << " Not found " << endl;
